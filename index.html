@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Riznal Ahya Rizqia | Fullstack Developer</title>
+<meta name="description" content="Portofolio Fullstack Developer: web app dari antarmuka sampai database.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header" id="header">
+<a href="#home" class="logo">nama.dev</a>
+<button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+<nav class="nav" id="nav">
+<a href="#about">Tentang</a>
+<a href="#skills">Keahlian</a>
+<a href="#projects">Proyek</a>
+<a href="#contact" class="nav-cta">Hubungi saya</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="hero-text">
+<p class="hello">Halo, saya Muhammad Riznal Ahya Rizqia</p>
+<h1>Saya membangun web app dari <span id="typed"></span><span class="caret"></span></h1>
+<p class="lead">Fullstack developer yang menangani antarmuka, API, dan database sampai produk siap dipakai pengguna.</p>
+<div class="actions">
+<a href="#projects" class="btn btn-primary">Lihat proyek</a>
+<a href="#contact" class="btn btn-ghost">Ajak kerja sama</a>
+</div>
+</div>
+<div class="stage" aria-hidden="true">
+<div class="stack">
+<div class="layer l3"><b>Database</b><small>PostgreSQL · MongoDB</small></div>
+<div class="layer l2"><b>API</b><small>Node.js · Express</small></div>
+<div class="layer l1"><b>Antarmuka</b><small>React · Tailwind</small></div>
+</div>
+</div>
+</section>
+
+<section class="section" id="about">
+<div class="wrap about">
+<img src="images/pas_foto.png" alt="Foto Nama Kamu" class="avatar" width="320" height="320">
+<div class="reveal">
+<h2>Dari tampilan sampai server</h2>
+<p>Saya fullstack developer dengan pengalaman 3 tahun membuat aplikasi web untuk bisnis kecil dan startup. Saya suka memastikan setiap bagian, dari tombol di layar sampai query di database, bekerja rapi bersama.</p>
+<ul class="facts">
+<li><strong>3+</strong><span>tahun pengalaman</span></li>
+<li><strong>20+</strong><span>proyek selesai</span></li>
+<li><strong>12</strong><span>klien puas</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section alt" id="skills">
+<div class="wrap">
+<h2 class="reveal">Keahlian per lapisan</h2>
+<div class="skills">
+<article class="skill reveal"><h3>Frontend</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span></div></article>
+<article class="skill reveal"><h3>Backend</h3><div class="tags"><span>Node.js</span><span>Express</span><span>Laravel</span><span>REST API</span><span>JWT</span></div></article>
+<article class="skill reveal"><h3>Database</h3><div class="tags"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Redis</span></div></article>
+<article class="skill reveal"><h3>Deploy</h3><div class="tags"><span>Git</span><span>Docker</span><span>Nginx</span><span>GitHub Actions</span></div></article>
+</div>
+</div>
+</section>
+
+<section class="section" id="projects">
+<div class="wrap">
+<h2 class="reveal">Proyek pilihan</h2>
+<div class="projects">
+<article class="project reveal">
+<img src="images/pas_foto.png" alt="Tampilan dashboard toko online" loading="lazy" width="600" height="360">
+<div class="body"><h3>Toko Online</h3><p>Katalog, keranjang, dan pembayaran dengan dashboard admin untuk mengelola stok.</p><div class="tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div><div class="links"><a href="#" target="_blank" rel="noopener">Demo</a><a href="#" target="_blank" rel="noopener">Kode</a></div></div>
+</article>
+<article class="project reveal">
+<img src="images/pas_foto.png" alt="Tampilan aplikasi manajemen tugas" loading="lazy" width="600" height="360">
+<div class="body"><h3>Manajer Tugas Tim</h3><p>Papan kanban dengan pembaruan real-time antar anggota tim memakai WebSocket.</p><div class="tags"><span>Next.js</span><span>Socket.io</span><span>MongoDB</span></div><div class="links"><a href="#" target="_blank" rel="noopener">Demo</a><a href="#" target="_blank" rel="noopener">Kode</a></div></div>
+</article>
+<article class="project reveal">
+<img src="images/pas_foto.png" alt="Tampilan sistem reservasi klinik" loading="lazy" width="600" height="360">
+<div class="body"><h3>Reservasi Klinik</h3><p>Jadwal dokter, booking pasien, dan pengingat otomatis lewat email.</p><div class="tags"><span>Laravel</span><span>MySQL</span><span>Docker</span></div><div class="links"><a href="#" target="_blank" rel="noopener">Demo</a><a href="#" target="_blank" rel="noopener">Kode</a></div></div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section alt" id="contact">
+<div class="wrap contact reveal">
+<h2>Punya proyek untuk dikerjakan?</h2>
+<p>Kirim ide Anda lewat email. Saya biasanya membalas dalam satu hari kerja.</p>
+<a href="mailto:email@kamu.com" class="btn btn-primary">email@kamu.com</a>
+<div class="socials"><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></div>
+</div>
+</section>
+</main>
+
+<footer class="footer">© <span id="year"></span> Muhammad Riznal Ahya Rizqia. Dibuat dengan HTML, CSS, dan JavaScript.</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
