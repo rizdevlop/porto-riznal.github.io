@@ -17,28 +17,26 @@
 <body>
     <header class="header" id="header">
         <a href="#home" class="logo">Riznal Ahya</a>
-        <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">
-            <span></span><span></span>
-        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Buka menu"
+            aria-expanded="false"><span></span><span></span></button>
         <nav class="nav" id="nav">
             <a href="#about">Tentang</a>
-            <a href="#skills">Keahlian</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#education">Pendidikan</a>
+            <a href="#certificates">Sertifikasi</a>
+            <a href="#tech">Teknologi</a>
             <a href="#projects">Proyek</a>
-            <a href="#contact" class="nav-cta">Hubungi saya</a>
+            <a href="#achievements">Pencapaian</a>
+            <a href="#contact" class="nav-cta">Kontak</a>
         </nav>
     </header>
-
     <main>
         <section class="hero" id="home">
             <div class="hero-text">
                 <p class="hello">Halo, saya Muhammad Riznal Ahya Rizqia</p>
-                <h1>
-                    Saya membangun web app dari <span id="typed"></span><span class="caret"></span>
-                </h1>
-                <p class="lead">
-                    Fullstack developer yang menangani antarmuka, API, dan database
-                    sampai produk siap dipakai pengguna.
-                </p>
+                <h1>Saya membangun web app dari <span id="typed"></span><span class="caret"></span></h1>
+                <p class="lead">Fullstack developer yang menangani antarmuka, API, dan database sampai produk siap
+                    dipakai pengguna.</p>
                 <div class="actions">
                     <a href="#projects" class="btn btn-primary">Lihat proyek</a>
                     <a href="#contact" class="btn btn-ghost">Ajak kerja sama</a>
@@ -46,94 +44,139 @@
             </div>
             <div class="stage" aria-hidden="true">
                 <div class="stack">
-                    <div class="layer l3">
-                        <b>Database</b><small>MySQL · PostgreSQL · MongoDB</small>
-                    </div>
-                    <div class="layer l2">
-                        <b>API</b><small>Laravel · Node.js · Express</small>
-                    </div>
-                    <div class="layer l1">
-                        <b>Antarmuka</b><small>Flutter · React · Bootstrap · Tailwind</small>
-                    </div>
+                    <div class="layer l3"><b>Database</b><small>MySQL · PostgreSQL · MongoDB</small></div>
+                    <div class="layer l2"><b>API</b><small>Laravel · Node.js · Express</small></div>
+                    <div class="layer l1"><b>Antarmuka</b><small>Flutter · React · Bootstrap · Tailwind</small></div>
                 </div>
             </div>
         </section>
 
         <section class="section" id="about">
             <div class="wrap about">
-                <img src="images/pas_foto.png" alt="Foto Nama Kamu" class="avatar" width="320" height="320" />
+                <img src="images/pas_foto.png" alt="Foto Muhammad Riznal Ahya Rizqia" class="avatar" width="320"
+                    height="320" />
                 <div class="reveal">
-                    <h2>Tentang</h2>
-                    <p>
-                        Saya adalah seorang Fullstack Developer yang saat ini aktif
-                        bekerja secara kontrak pada sebuah perusahaan. Saya memiliki
-                        pengalaman di bidang pemrograman selama tiga tahun, terdiri dari
-                        dua tahun kerja kontrak dan satu tahun magang, mencakup
-                        pengembangan aplikasi web hingga mobile. Saya telah terlibat dalam
-                        lebih dari 50 proyek, di antaranya sistem ERP, MRP, CRM, dan HR.
-                    </p>
+                    <h2>Tentang Saya</h2>
+                    <p>Saya adalah seorang Fullstack Developer yang saat ini aktif bekerja secara kontrak pada sebuah
+                        perusahaan. Saya memiliki pengalaman di bidang pemrograman selama tiga tahun, terdiri dari dua
+                        tahun kerja kontrak dan satu tahun magang, mencakup pengembangan aplikasi web hingga mobile.
+                        Saya telah terlibat dalam lebih dari 50 proyek, di antaranya sistem ERP, MRP, CRM, dan HR.</p>
                     <ul class="facts">
                         <li><strong>3+</strong><span>tahun pengalaman</span></li>
-                        <li>
-                            <strong>50+</strong><span>berpartisipasi dalam project</span>
-                        </li>
+                        <li><strong>50+</strong><span>berpartisipasi dalam project</span></li>
                         <li><strong>10+</strong><span>teknologi dikuasai</span></li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="section alt" id="skills">
+        <section class="section alt" id="experience">
             <div class="wrap">
-                <h2 class="reveal">Keahlian</h2>
-                <div class="skills">
-                    <article class="skill reveal">
-                        <h3>Frontend</h3>
-                        <div class="tags">
-                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span>
-                        </div>
+                <h2 class="reveal">Pengalaman</h2>
+                <div class="timeline">
+                    <article class="item reveal">
+                        <span class="period">2024 – Sekarang</span>
+                        <h3>Fullstack Developer (Kontrak)</h3>
+                        <p class="org">Nama Perusahaan</p>
+                        <ul>
+                            <li>Mengembangkan aplikasi web dan mobile untuk sistem ERP, MRP, CRM, dan HR.</li>
+                            <li>Membangun REST API dan mengelola database untuk kebutuhan bisnis perusahaan.</li>
+                            <li>Menguji dan mendokumentasikan API menggunakan Postman.</li>
+                        </ul>
                     </article>
-                    <article class="skill reveal">
-                        <h3>Backend</h3>
-                        <div class="tags">
-                            <span>Node.js</span><span>Express</span><span>Laravel</span><span>REST
-                                API</span><span>JWT</span>
-                        </div>
-                    </article>
-                    <article class="skill reveal">
-                        <h3>Database</h3>
-                        <div class="tags">
-                            <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Redis</span>
-                        </div>
-                    </article>
-                    <article class="skill reveal">
-                        <h3>Deploy</h3>
-                        <div class="tags">
-                            <span>Git</span><span>Docker</span><span>Nginx</span><span>GitHub Actions</span>
-                        </div>
+                    <article class="item reveal">
+                        <span class="period">2023 – 2024</span>
+                        <h3>Magang Programmer</h3>
+                        <p class="org">Nama Perusahaan</p>
+                        <ul>
+                            <li>Membantu pengembangan fitur aplikasi web dengan Laravel dan MySQL.</li>
+                            <li>Belajar alur kerja tim menggunakan Git dan code review.</li>
+                        </ul>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="projects">
+        <section class="section" id="education">
             <div class="wrap">
-                <h2 class="reveal">Proyek</h2>
+                <h2 class="reveal">Pendidikan</h2>
+                <div class="timeline">
+                    <article class="item reveal">
+                        <span class="period">2019 – 2023</span>
+                        <h3>Nama Jurusan, Nama Universitas</h3>
+                        <p class="org">Kota, Indonesia</p>
+                        <ul>
+                            <li>Fokus pada pengembangan perangkat lunak dan basis data.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="certificates">
+            <div class="wrap">
+                <h2 class="reveal">Sertifikasi</h2>
+                <div class="cards">
+                    <article class="card reveal">
+                        <h3>Nama Sertifikasi 1</h3>
+                        <p class="org">Penerbit Sertifikat</p>
+                        <span class="period">2024</span>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Nama Sertifikasi 2</h3>
+                        <p class="org">Penerbit Sertifikat</p>
+                        <span class="period">2023</span>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Nama Sertifikasi 3</h3>
+                        <p class="org">Penerbit Sertifikat</p>
+                        <span class="period">2023</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="tech">
+            <div class="wrap">
+                <h2 class="reveal">Teknologi yang Digunakan</h2>
+                <div class="skills">
+                    <article class="skill reveal">
+                        <h3>Frontend</h3>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span><span>Bootstrap</span><span>Flutter</span>
+                        </div>
+                    </article>
+                    <article class="skill reveal">
+                        <h3>Backend</h3>
+                        <div class="tags"><span>Node.js</span><span>Express</span><span>Laravel</span><span>REST
+                                API</span><span>JWT</span></div>
+                    </article>
+                    <article class="skill reveal">
+                        <h3>Database</h3>
+                        <div class="tags">
+                            <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Redis</span></div>
+                    </article>
+                    <article class="skill reveal">
+                        <h3>Deploy</h3>
+                        <div class="tags"><span>Git</span><span>Docker</span><span>Nginx</span><span>GitHub
+                                Actions</span><span>Postman</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="projects">
+            <div class="wrap">
+                <h2 class="reveal">Proyek Unggulan</h2>
                 <div class="projects">
                     <article class="project reveal">
                         <img src="images/mobile_apps.png" alt="Tampilan HR Mobile Apps" loading="lazy" width="600"
                             height="360" />
                         <div class="body">
                             <h3>HR Mobile Apps</h3>
-                            <p>
-                                Aplikasi mobile untuk kebutuhan HR perusahaan, mulai dari
-                                pencatatan kehadiran karyawan hingga pengelolaan penggajian.
-                            </p>
-                            <div class="tags">
-                                <span>Flutter</span>
-                                <span>Node.js</span>
-                                <span>PostgreSQL</span>
-                            </div>
+                            <p>Aplikasi mobile untuk kebutuhan HR perusahaan, mulai dari pencatatan kehadiran karyawan
+                                hingga pengelolaan penggajian.</p>
+                            <div class="tags"><span>Flutter</span><span>Node.js</span><span>PostgreSQL</span></div>
                         </div>
                     </article>
                     <article class="project reveal">
@@ -141,34 +184,43 @@
                             height="360" />
                         <div class="body">
                             <h3>STRAD EX SURABAYA</h3>
-                            <p>
-                                Aplikasi digital untuk membantu pelaku usaha Indonesia
-                                mengakses informasi pasar ekspor, menemukan pembeli
-                                internasional, dan mempromosikan produk lokal ke pasar global.
-                            </p>
-                            <div class="tags">
-                                <span>Laravel</span>
-                                <span>MySQL</span>
-                            </div>
+                            <p>Aplikasi digital untuk membantu pelaku usaha Indonesia mengakses informasi pasar ekspor,
+                                menemukan pembeli internasional, dan mempromosikan produk lokal ke pasar global.</p>
+                            <div class="tags"><span>Laravel</span><span>MySQL</span></div>
                         </div>
                     </article>
                     <article class="project reveal">
                         <img src="images/postman.png" alt="Dokumentasi dan pengujian API menggunakan Postman"
                             loading="lazy" width="600" height="360" />
                         <div class="body">
-                            <h3>API Documentation & Testing</h3>
-                            <p>
-                                Dokumentasi dan pengujian REST API menggunakan Postman untuk
-                                memverifikasi endpoint, mengirim request HTTP, memeriksa
-                                response, serta memastikan API berjalan sesuai kebutuhan
-                                sistem.
-                            </p>
-                            <div class="tags">
-                                <span>Postman</span>
-                                <span>REST API</span>
-                                <span>HTTP</span>
-                            </div>
+                            <h3>API Documentation &amp; Testing</h3>
+                            <p>Dokumentasi dan pengujian REST API menggunakan Postman untuk memverifikasi endpoint,
+                                memeriksa response, serta memastikan API berjalan sesuai kebutuhan sistem.</p>
+                            <div class="tags"><span>Postman</span><span>REST API</span><span>HTTP</span></div>
                         </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="achievements">
+            <div class="wrap">
+                <h2 class="reveal">Pencapaian</h2>
+                <div class="cards">
+                    <article class="card reveal">
+                        <strong class="big">50+</strong>
+                        <h3>Proyek diselesaikan</h3>
+                        <p class="org">Sistem ERP, MRP, CRM, dan HR.</p>
+                    </article>
+                    <article class="card reveal">
+                        <strong class="big">3+</strong>
+                        <h3>Tahun di dunia pemrograman</h3>
+                        <p class="org">Dua tahun kontrak dan satu tahun magang.</p>
+                    </article>
+                    <article class="card reveal">
+                        <strong class="big">10+</strong>
+                        <h3>Teknologi dikuasai</h3>
+                        <p class="org">Dari web, mobile, API, sampai deployment.</p>
                     </article>
                 </div>
             </div>
@@ -177,24 +229,18 @@
         <section class="section alt" id="contact">
             <div class="wrap contact reveal">
                 <h2>Punya proyek untuk dikerjakan?</h2>
-                <p>
-                    Kirim ide Anda lewat email. Saya biasanya membalas dalam satu hari
-                    kerja.
-                </p>
-                <a href="mailto:email@kamu.com" class="btn btn-primary">rizqiaahya@gmail.com</a>
+                <p>Kirim ide Anda lewat email. Saya biasanya membalas dalam satu hari kerja.</p>
+                <a href="mailto:rizqiaahya@gmail.com" class="btn btn-primary">rizqiaahya@gmail.com</a>
                 <div class="socials">
-                    <a href="https://gitlab.com/users/rznlll/projects" target="_blank" rel="noopener">GitLab</a><a
-                        href="https://id.linkedin.com/in/muhammad-riznal-ahya-rizqia" target="_blank"
-                        rel="noopener">LinkedIn</a><a href="https://www.instagram.com/naallzz/" target="_blank"
-                        rel="noopener">Instagram</a>
+                    <a href="https://gitlab.com/users/rznlll/projects" target="_blank" rel="noopener">GitLab</a>
+                    <a href="https://id.linkedin.com/in/muhammad-riznal-ahya-rizqia" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                    <a href="https://www.instagram.com/naallzz/" target="_blank" rel="noopener">Instagram</a>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer class="footer">
-        © <span id="year"></span> Muhammad Riznal Ahya Rizqia.
-    </footer>
+    <footer class="footer">© <span id="year"></span> Muhammad Riznal Ahya Rizqia.</footer>
     <script src="js/main.js"></script>
 </body>
 
